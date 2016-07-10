@@ -1,9 +1,0 @@
-
-# -*- coding: utf-8 -*-
-
-if __name__ == "__main__":
-    from famosos import famosos
-    
-    print(famosos)
-    
-#!/usr/local/bin/python3.5
