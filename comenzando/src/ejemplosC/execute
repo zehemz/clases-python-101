@@ -1,0 +1,3 @@
+python input.py
+
+echo -e "\n \n \nPuro python 1000000 numeros" && python pure_python.py && echo "Python ejecuntando C 1000000 numeros" && python helloWithC.py && echo "Python llamando por consola C++ (ejecutable) 1000000 numeros"&& python helloWithC-2.py && echo "Puro C++ (ejecutable) 1000000 numeros"&& ./build/hello

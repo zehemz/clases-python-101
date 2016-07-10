@@ -1,2 +1,2 @@
 from subprocess import call
-call(["./hello"])
+call(["./build/hello"])

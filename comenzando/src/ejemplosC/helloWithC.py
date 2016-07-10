@@ -1,15 +1,14 @@
 import sys
 import datetime
+
 try:
-    from ctypes import *
+    from ctypes import cdll
 except ImportError:
     print("ERROR")
     sys.exit(-1)
 
 a = datetime.datetime.now()
-	
-cdll.LoadLibrary("./helloLib.so").executeWork()
-
+cdll.LoadLibrary("./build/helloLib.so").executeWork()
 b = datetime.datetime.now()
 print(b-a)
 
