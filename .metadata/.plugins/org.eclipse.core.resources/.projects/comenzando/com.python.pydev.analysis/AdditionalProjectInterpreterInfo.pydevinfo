@@ -1,0 +1,18 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/Users/Lucas/Documents/pythonClass/.metadata/.plugins/org.eclipse.core.resources/.projects/comenzando/com.python.pydev.analysis/v2_indexcache
+main|1468040475000000000|/Users/Lucas/Documents/pythonClass/comenzando/src/main.py
+-- END DISKCACHE
+-- START DICTIONARY
+1
+1=main
+-- END DICTIONARY
+-- START TREE 1
+3
+age|1|age!11@
+nam|1|name!11@
+yea|1|year!11@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

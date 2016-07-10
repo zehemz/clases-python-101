@@ -1,0 +1,22 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/Users/Lucas/Documents/pythonClass/.metadata/.plugins/org.eclipse.core.resources/.projects/with-samples/com.python.pydev.analysis/v2_indexcache
+withSample|1468023516000000000|/Users/Lucas/Documents/pythonClass/with-samples/src/withSample.py
+withSample2|1468023854000000000|/Users/Lucas/Documents/pythonClass/with-samples/src/withSample2.py
+-- END DISKCACHE
+-- START DICTIONARY
+3
+2=withSample
+1=withSample2
+3=WithObject
+-- END DICTIONARY
+-- START TREE 1
+2
+eje|3|ejemplo!10@ejemplo!18@ejemplo2!10@
+wit|1|WithObject!17@
+-- END TREE
+-- START TREE 2
+2
+__e|2|__enter__!3&18@__exit__!3&18@
+__i|1|__init__!3&18@
+-- END TREE

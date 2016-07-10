@@ -1,0 +1,22 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/Users/Lucas/Documents/pythonClass/.metadata/.plugins/org.eclipse.core.resources/.projects/archivos/com.python.pydev.analysis/v2_indexcache
+lectoescritura|1468080348000000000|/Users/Lucas/Documents/pythonClass/archivos/src/lectoescritura.py
+main|1468079600000000000|/Users/Lucas/Documents/pythonClass/archivos/src/main.py
+-- END DISKCACHE
+-- START DICTIONARY
+2
+2=lectoescritura
+1=main
+-- END DICTIONARY
+-- START TREE 1
+5
+arg|1|argumentOpt!10@
+dic|1|diccionario!19@
+hab|1|habiaArgumentos!11@
+lis|1|lista!19@
+par|1|parseArgs!10@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

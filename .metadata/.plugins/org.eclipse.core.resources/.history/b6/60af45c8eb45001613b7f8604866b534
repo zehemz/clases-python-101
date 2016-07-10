@@ -1,0 +1,15 @@
+'''
+Created on 9 jul. 2016
+
+lectura de argumentos
+@author: Lucas
+'''
+import sys
+
+def parseArgs(arguments):
+    pass
+
+if __name__ == '__main__':
+    print(sys.argv)
+    if parseArgs(sys.argv):
+        
