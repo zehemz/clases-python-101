@@ -7,7 +7,7 @@ __pycache__/
 .metadata/
 .DS_Store
 .metadata/.plugins/
-
+*/.project
 # C extensions
 *.so
 
