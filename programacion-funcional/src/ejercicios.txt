@@ -38,4 +38,31 @@
 
 3. Programación funcional
 
-- 
+- Dado un número, generar una función que indique si dicho número es primo o no lo es.
+
+- Definir una función que calcúle el área de un cuadrado. ¿Cómo la modificarías para que calcule el área de un rectangulo?
+
+- Generar un conversor de centímetros a pulgadas
+
+- Generar una función que dado una medida en segundos imprima por pantalla cuanto tiempo falta (actual + segundos) en hs, minutos y segundos para dicha fecha.
+A su vez, se deberá escribir un diccionario (que dicha función reciba por parámetro) donde se guardaran estos campos como "minutos faltantes, horas faltantes y segundos faltantes".
+
+- Escribir un programa que dado un diccionario (empleado-salario) indíque si este se encuentra por debajo del sueldo mínimo ($6000)
+En caso de que lo esté, agregarlo a una lista para luego ser impresa por pantalla.
+
+Recursividad:
+ *** Se deberá tratar de pensar de manera recursiva las resoluciones de los siguientes ejercicios.
+
+- Revertir una lista.
+
+- Dado una lista de numeros calcular la sumatoria de dicho número.
+
+- Calcular el Nesimo número de fibbonacci. (Help: WIKI)
+
+- Dadas 2 listas con la misma cantidad de elementos intercalarlos.
+Ejemplo: [1,2,3,4] y [9,8,7,6] -> [1,9,2,8,3,7,4,6]
+
+- Dada una lista de números enteros y un numero entero n,revertir la lista n veces y retornar cada elemento multiplicado por n
+
+Tarea:
+- ¿Es posible generar una lista de tags html de manera recursiva?
