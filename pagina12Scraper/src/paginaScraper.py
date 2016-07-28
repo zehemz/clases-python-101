@@ -5,19 +5,27 @@ Created on Jul 28, 2016
 '''
 
 from lxml import html
-from io import StringIO, BytesIO
-from copy import deepcopy
 import requests
 import re
 import pickle
+import sys
 
 BASE_URL = 'http://www.pagina12.com.ar'
 
-def writeList(list):
-        file = open("websScrapeadas.txt", "w")
-        for element in list:
-            file.write(element + '\n')
-        file.close()
+def writeList(urlList):
+    '''
+    Write pagina12_urls.txt file with the urls used
+    and a pickle object
+    '''
+    
+    pickle.dump(modifiedUrls, open("lista.p", "wb"))
+    
+    file = open("pagina12_urls.txt", "w")
+    
+    for element in urlList:
+        file.write(element + '\n')
+    
+    file.close()
 
 
 if __name__ == '__main__':    
@@ -26,28 +34,21 @@ if __name__ == '__main__':
     
     try:    
         compiledRe = re.compile(r'href=[\'"]?([^\'">]+/20-\d{6}-\d{4}-\d{2}-\d{2}[^\'">]+)')
-        # href que arranca así
-        #contiene /20-
-        # hasta que termina
-        matches = compiledRe.findall(str(page.content))
-        print(matches)
+        hrefMatches = compiledRe.findall(str(page.content))
     except Exception as error:
-        print(type(error))
         print(error)
+        sys.exit()
     
-    modifiedUrls = [(BASE_URL + url) for url in matches]
-    print(modifiedUrls)
-    
-    pickle.dump(modifiedUrls, open("lista.p", "wb"))
+    '''Set of urls without duplications'''
+    modifiedUrls = {(BASE_URL + url) for url in hrefMatches}
+    '''write in pickle and file to persist them'''
     writeList(modifiedUrls)
-    count = 0    
+    
+    count = 0
+        
     for url in modifiedUrls:
         try:
             page = requests.get(url)
-        except Exception as error:
-            print(error)
-            continue
-        try:
             tree = html.fromstring(page.content)
         except Exception as error:
             print(error)
@@ -58,4 +59,6 @@ if __name__ == '__main__':
             file.write(parrafo)
         file.close()
         count +=1
-    count +=1
+    
+    sys.exit()
+    
