@@ -7,8 +7,7 @@ __http://www.apache.org/licenses/LICENSE-2.0.txt__
 **_Contenidos_**
 ================
 
-**_Python 101 - Clase 1 (presentación)_**
-
+[**_Python 101 - Clase 1 (presentación)_**](python_101_01.pdf)
 * Algunas características 
 * Propiedades del lenguaje
 * Biblioteca estándar
@@ -20,17 +19,14 @@ __http://www.apache.org/licenses/LICENSE-2.0.txt__
 * [Ejemplo web services](1.0-comenzando/src/ejemplosWS)
 * [Comparativa de velocidades simple y uso de C en python](1.0-comenzando/src/ejemplosC)
 
-* Ejercicios!
+* [Ejercicios!](1.0-comenzando/src/ejercicios.txt)
 
 **_1.5-tipos-de-datos_**
-* Constantes - constantes.py
-* Diccionarios (TODO)
-* Listas (TODO)
-* Sets (TODO)
-* Numericos (TODO)
-* Concepto de Main (TODO)
+* Concepto de Main
+* Numericos, Diccionarios, Listas, Sets
+* [Constantes](1.5-tipos-de-datos/src/constantes.py)
 
-* Ejercicios!
+* [Ejercicios!](1.5-tipos-de-datos/src/ejercicios.txt)
 
 **_2.0-programacion-funcional_**
 * Definiendo una función
