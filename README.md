@@ -101,7 +101,7 @@ __http://www.apache.org/licenses/LICENSE-2.0.txt__
 * Doc testing
 * Distribución de aplicaciones
 
-[**_Micelaneos_**]()
-* [Crear paquetes de distribucion para Debian](11.0-dist/DISTRIB.txt)
+[**_Micelaneos_**](11.0-dist)
+* [Crear paquetes de distribucion para Debian](11.0-dist/dist_debian.txt)
 * Python sobre Windows, creando instaladores
 * Subir proyectos a PIP
