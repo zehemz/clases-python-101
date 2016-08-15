@@ -25,10 +25,3 @@
 - Escribir un listado de famosos en un archivo .py. Desde otro archivo mostrar por pantalla el listado de famosos numerados.
 
 - Decidir si un número es primo.
-
-2.3 Comprensiones de listas
-- 
-2.4 Archivos
-- 
-2.5 Expresiones regulares
-- 

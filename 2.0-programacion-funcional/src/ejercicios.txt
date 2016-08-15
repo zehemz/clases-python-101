@@ -35,6 +35,10 @@
 ─────────────█─▄█▄─█─█▀▀█──▀█▀
 ─────────────██▀─▀██─█──█───█
 
+2.3 Comprensiones de listas
+
+
+
 
 3. Programación funcional
 

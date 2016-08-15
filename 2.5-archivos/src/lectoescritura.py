@@ -5,4 +5,13 @@ Created on 9 jul. 2016
 '''
 
 if __name__ == '__main__':
-    pass
+    
+    '''Ejemplo write'''
+    file = open("write.txt",'w+')
+    file.write("texto")
+    file.close()
+    '''Ejemplo read'''    
+    file = open("write.txt", "r+")
+    textFile = file.read()
+    print(textFile)
+    file.close()
