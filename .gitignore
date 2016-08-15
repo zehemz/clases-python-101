@@ -95,3 +95,4 @@ ENV/
 
 #PROJECT ECLIPSE
 .pydevproject
+.project
