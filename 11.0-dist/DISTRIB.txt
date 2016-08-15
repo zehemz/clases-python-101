@@ -1,0 +1,9 @@
+SetupTools
+Documentación: https://pypi.python.org/pypi/stdeb, https://setuptools.readthedocs.io/en/latest/
+Dependencias: pip3 install stdeb
+
+python setup.py sdist
+(genera directorios dist - XXXX.egg-info)
+
+python setup.py --command-packages=stdeb.command bdist_deb
+(genera .deb)

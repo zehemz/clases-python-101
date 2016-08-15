@@ -8,7 +8,7 @@ __http://www.apache.org/licenses/LICENSE-2.0.txt__
 ================
 
 [**_Comenzando - presentación_**](python_101_01.pdf)
-* Algunas características 
+* Algunas características
 * Propiedades del lenguaje
 * Biblioteca estándar
 * Comenzando a programar
@@ -53,7 +53,7 @@ __http://www.apache.org/licenses/LICENSE-2.0.txt__
 
 * Ejercicios! (TODO)
 
-[**_Programacion orientada a objetos_**](3.0-clases-y-objetos) 
+[**_Programacion orientada a objetos_**](3.0-clases-y-objetos)
 * Definiendo una clase
 * Métodos y atributos de instancia
 * Métodos y atributos de clase
@@ -81,25 +81,27 @@ __http://www.apache.org/licenses/LICENSE-2.0.txt__
 * Miscelánea de Controles
 * Widgets personalizados
 
-[**_Almacenamiento de información_**]
+[**_Almacenamiento de información_**]()
 * Lenguaje SQL
 * Utilizando la base de datos MySQL
 * Utilizando la base de datos SQLITE
 
 * Ejercicios! (TODO)
 
-[**_Python en la Web_**]
+[**_Python en la Web_**]()
 * Flask
 * ¿Que es un WSGI?
 * Introduccion a Django
 
 * Ejercicios! (TODO)
-[**_Algunos Patrones en Python_**]
+
+[**_Algunos Patrones en Python_**]()
 * Metaclases
 * Unit testing
 * Doc testing
 * Distribución de aplicaciones
 
-[**_Micelaneos_**]
-* Crear paquetes de distribucion para Debian
+[**_Micelaneos_**]()
+* [Crear paquetes de distribucion para Debian](11.0-dist/DISTRIB.txt)
 * Python sobre Windows, creando instaladores
+* Subir proyectos a PIP
