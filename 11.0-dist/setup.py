@@ -1,10 +1,11 @@
 from setuptools import setup, find_packages
 setup(
-    name = "SAMPLE_PACKAGE",
+    name = "myscript",
     version = "0.1",
-    packages = find_packages(),
-    scripts = ['main.py'],
-
+    packages = ['src'],
+    entry_points = {
+        'console_scripts' : ['myscript=src.mymodule:main']
+    },
     # Project uses reStructuredText, so ensure that the docutils get
     # installed or upgraded on the target machine
     #install_requires = ['docutils>=0.3'],
@@ -22,6 +23,6 @@ setup(
     description = "This is an Example Package",
     license = "PSF",
     keywords = "hello world example examples",
-    url = "http://example.com/",   # project home page, if any
+    url = "http://example.com/asdfasd",   # project home page, if any
     # could also include long_description, download_url, classifiers, etc.
 )
