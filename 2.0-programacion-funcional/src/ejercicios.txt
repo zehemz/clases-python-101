@@ -1,7 +1,7 @@
-─▄▀▀▀▀▄─█──█────▄▀▀█─▄▀▀▀▀▄─█▀▀▄ 
-─█────█─█──█────█────█────█─█──█ 
-─█────█─█▀▀█────█─▄▄─█────█─█──█ 
-─▀▄▄▄▄▀─█──█────▀▄▄█─▀▄▄▄▄▀─█▄▄▀ 
+─▄▀▀▀▀▄─█──█────▄▀▀█─▄▀▀▀▀▄─█▀▀▄
+─█────█─█──█────█────█────█─█──█
+─█────█─█▀▀█────█─▄▄─█────█─█──█
+─▀▄▄▄▄▀─█──█────▀▄▄█─▀▄▄▄▄▀─█▄▄▀
 
 ─────────▄██████▀▀▀▀▀▀▄
 ─────▄█████████▄───────▀▀▄▄
@@ -35,10 +35,15 @@
 ─────────────█─▄█▄─█─█▀▀█──▀█▀
 ─────────────██▀─▀██─█──█───█
 
-2.3 Comprensiones de listas
+2.3 Listas por comprención:
 
+- Dado una lista de números enteros definir una nueva lista que indica la tupla numero-paridad(true/false)
+- Dado una lista de números de 0 a 100 obtener los números que esten por debajo de 50.
+- Dado una lista de números de 0 a 100 obtener los números que esten por debajo de 50 tal cual estan y los que no deberán ser multiplicados por 2.
+- Dado un número N entero entregar un generador que recorra todos los números pares <= a N.
 
-
+2.4 Decoradores
+- Generar un decorador que dependiendo un flag (true/false) de debug haga algo o no.
 
 3. Programación funcional
 

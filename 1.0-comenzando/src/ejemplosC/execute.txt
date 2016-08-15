@@ -1,0 +1,21 @@
+Puro python 1000000 números
+python pure_python.py
+
+Puro python3 1000000 números
+python3.5 pure_python.py
+
+Python ejecuntando C 1000000 números
+python helloWithC.py
+
+Python llamando por consola C++ (ejecutable) 1000000 números
+python helloWithC-2.py
+
+make clean (clean de compilación)
+make all (compila)
+
+Ejecutar directamente en C
+./build/hello
+
+Todo junto:
+
+make all && echo -e "\n \n \nPuro python 1000000 números" && python pure_python.py && echo "Python ejecuntando C 1000000 números" && python helloWithC.py && echo "Python llamando por consola C++ (ejecutable) 1000000 números"&& python helloWithC-2.py && echo "Puro C++ (ejecutable) 1000000 numeros"&& ./build/hello

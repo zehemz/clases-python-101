@@ -16,42 +16,42 @@ __http://www.apache.org/licenses/LICENSE-2.0.txt__
 [**_Comenzando - practica_**](1.0-comenzando)
 * [Tipos básicos de datos](1.0-comenzando/src/main.py)
 * [I/O print - input - raw_input](1.0-comenzando/src/main.py)
-* [Ejemplo web services](1.0-comenzando/src/ejemplosWS)
-* [Comparativa de velocidades simple y uso de C en python](1.0-comenzando/src/ejemplosC)
+* [Ejemplo web services](1.0-comenzando/src/ejemploWS/)
+* [Comparativa de velocidades simple y uso de C en python](1.0-comenzando/src/ejemplosC/execute.txt)
 
 * [Ejercicios!](1.0-comenzando/src/ejercicios.txt)
 
 [**_Tipos de datos_**](1.5-tipos-de-datos)
-* Numericos, Diccionarios, Listas, Sets
-* Concepto de Main
 * [Constantes](1.5-tipos-de-datos/src/constantes.py)
+* Concepto de Main (en clase)
+* Numericos, Diccionarios, Listas, Sets (en clase)
 
 * [Ejercicios!](1.5-tipos-de-datos/src/ejercicios.txt)
 
-[**_Funciones y programación funcional_**](1.5-tipos-de-datos)
-* Definiendo una función
-* Llamando a una función
-* Argumentos posicionales y nominados
-* Argumentos defaults
-* Listas por comprención (TODO)
-* Decoradores (TODO)
-* Recursividad
+[**_Funciones y programación funcional_**](2.0-programacion-funcional)
+* [Definiendo una función](2.0-programacion-funcional/function_0.py)
+* [Llamando a una función](2.0-programacion-funcional/function_2.py)
+* [Argumentos posicionales y nominados](2.0-programacion-funcional/function_2.py)
+* [Argumentos defaults](2.0-programacion-funcional/function_2.py)
+* [Decoradores](2.0-programacion-funcional/function_decorators.py)
+* [Recursividad](2.0-programacion-funcional/function_recursive_0.py)
+* [Listas por comprención]()
 
-* Ejercicios! (TODO)
+* [Ejercicios!](2.0-programacion-funcional/ejercicios.txt)
 
 [**_Archivos_**](2.5-archivos)
-* Persistencia de información con pickle
-* Lectura y escritura - lectoescritura.py
+* [Persistencia de información con pickle](2.5-archivos/src/picklesample.py)
+* [Lectura y escritura](2.5-archivos/src/lectoescritura.py)
 * Parseo de argumentos
-	* sys argument parse - argumentos.py
-	* argparser - argparser.py
+	* [sys argument parse](2.5-archivos/src/argumentos.py)
+	* [argparser](2.5-archivos/src/argparser.py)
 
-* Ejercicios! (TODO)
+* [Ejercicios!]()  **TODO**
 
 [**_Expresiones Regulares_**](4.0-expresiones-regulares)
-* Expresiones regulares
+* [Expresiones regulares]() **TODO**
 
-* Ejercicios! (TODO)
+* [Ejercicios!]()  **TODO**
 
 [**_Programacion orientada a objetos_**](3.0-clases-y-objetos)
 * Definiendo una clase
@@ -60,7 +60,7 @@ __http://www.apache.org/licenses/LICENSE-2.0.txt__
 * Herencia
 * Módulos
 
-* Ejercicios! (TODO)
+* [Ejercicios!]()  **TODO**
 
 [**_Avanzado_**]()
 * Programas multitareas - Threads
@@ -71,37 +71,38 @@ __http://www.apache.org/licenses/LICENSE-2.0.txt__
 * Mail
 * FTP
 
-* Ejercicios! (TODO)
+* [Ejercicios!]()  **TODO**
 
 [**_Almacenamiento de información_**]()
 * Lenguaje SQL
 * Utilizando la base de datos MySQL
 * Utilizando la base de datos SQLITE
 
-* Ejercicios! (TODO)
+* [Ejercicios!]()  **TODO**
 
 [**_Distribución de aplicaciones_**](11.0-dist)
 * [Crear paquetes de distribucion para Debian](11.0-dist/dist_debian.txt)
 * [Python sobre Windows, creando instaladores](11.0-dist/dist_windows.txt)
 * [Subir proyectos a PIP](11.0-dist/pip_upload.txt)
 
-[**_Python en la Web_**]()
+[**_Python en la Web_**]() **TODO**
 * Flask
 * ¿Que es un WSGI?
 * Introduccion a Django
 
-* Ejercicios! (TODO)
+* [Ejercicios!]()  **TODO**
 
-[**_Interfaz gráfica - Utilizando la gráfica con Qt_**]()
+
+[**_Interfaz gráfica - Utilizando la gráfica con Qt_**]() **TODO**
 * Teoría de Señales y Retrollamadas (CallBacks)
 * Eventos
 * Métodos y Señales
 * Miscelánea de Controles
 * Widgets personalizados
 
-* Ejercicios! (TODO)
+* [Ejercicios!]()  **TODO**
 
-[**_Algunos Patrones en Python_**]()
+[**_Algunos Patrones en Python_**]() **TODO**
 * Metaclases
 * Unit testing
 * Doc testing
