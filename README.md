@@ -7,13 +7,13 @@ __http://www.apache.org/licenses/LICENSE-2.0.txt__
 **_Contenidos_**
 ================
 
-[**_Python 101 - Clase 1 (presentación)_**](python_101_01.pdf)
+[**_Comenzando - presentación_**](python_101_01.pdf)
 * Algunas características 
 * Propiedades del lenguaje
 * Biblioteca estándar
 * Comenzando a programar
 
-**_1.0-comenzando_**
+[**_Comenzando - practica_**](1.0-comenzando)
 * [Tipos básicos de datos](1.0-comenzando/src/main.py)
 * [I/O print - input - raw_input](1.0-comenzando/src/main.py)
 * [Ejemplo web services](1.0-comenzando/src/ejemplosWS)
@@ -21,14 +21,14 @@ __http://www.apache.org/licenses/LICENSE-2.0.txt__
 
 * [Ejercicios!](1.0-comenzando/src/ejercicios.txt)
 
-**_1.5-tipos-de-datos_**
-* Concepto de Main
+[**_Tipos de datos_**](1.5-tipos-de-datos)
 * Numericos, Diccionarios, Listas, Sets
+* Concepto de Main
 * [Constantes](1.5-tipos-de-datos/src/constantes.py)
 
 * [Ejercicios!](1.5-tipos-de-datos/src/ejercicios.txt)
 
-**_2.0-programacion-funcional_**
+[**_Funciones y programación funcional_**](1.5-tipos-de-datos)
 * Definiendo una función
 * Llamando a una función
 * Argumentos posicionales y nominados
@@ -39,22 +39,21 @@ __http://www.apache.org/licenses/LICENSE-2.0.txt__
 
 * Ejercicios! (TODO)
 
-**_2.5-archivos_**
-* Archivos
-	* Persistencia de información con pickle
-	* Lectura y escritura - lectoescritura.py
-	* Parseo de argumentos
-		* sys argument parse - argumentos.py
-		* argparser - argparser.py
+[**_Archivos_**](2.5-archivos)
+* Persistencia de información con pickle
+* Lectura y escritura - lectoescritura.py
+* Parseo de argumentos
+	* sys argument parse - argumentos.py
+	* argparser - argparser.py
 
 * Ejercicios! (TODO)
 
-**_4.0-expresiones-regulares_**
+[**_Expresiones Regulares_**](4.0-expresiones-regulares)
 * Expresiones regulares
 
 * Ejercicios! (TODO)
 
-**_3.0-clases-y-objetos_** - Programacion orientada a objetos
+[**_Programacion orientada a objetos_**](3.0-clases-y-objetos) 
 * Definiendo una clase
 * Métodos y atributos de instancia
 * Métodos y atributos de clase
@@ -63,7 +62,7 @@ __http://www.apache.org/licenses/LICENSE-2.0.txt__
 
 * Ejercicios! (TODO)
 
-
+[**_Avanzado_**]()
 * Programas multitareas - Threads
 * Control de errores, manejo de excepciones
 
@@ -75,37 +74,32 @@ __http://www.apache.org/licenses/LICENSE-2.0.txt__
 
 * Ejercicios! (TODO)
 
-
-**_Interfaz gráfica - Utilizando la gráfica con Qt_**
+[**_Interfaz gráfica - Utilizando la gráfica con Qt_**]()
 * Teoría de Señales y Retrollamadas (CallBacks)
 * Eventos
 * Métodos y Señales
 * Miscelánea de Controles
 * Widgets personalizados
 
-* Ejercicios! (TODO)
-
-
-**_Almacenamiento de información_**
+[**_Almacenamiento de información_**]
 * Lenguaje SQL
 * Utilizando la base de datos MySQL
 * Utilizando la base de datos SQLITE
 
 * Ejercicios! (TODO)
 
-**_Python en la Web_**
+[**_Python en la Web_**]
 * Flask
 * ¿Que es un WSGI?
 * Introduccion a Django
 
 * Ejercicios! (TODO)
-
-**_Algunos Patrones en Python_**
+[**_Algunos Patrones en Python_**]
 * Metaclases
 * Unit testing
 * Doc testing
 * Distribución de aplicaciones
 
-**_Micelaneos_**
+[**_Micelaneos_**]
 * Crear paquetes de distribucion para Debian
 * Python sobre Windows, creando instaladores
