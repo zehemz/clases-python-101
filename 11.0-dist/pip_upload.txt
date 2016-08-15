@@ -1,0 +1,30 @@
+Dependencias: pip install twine
+              pip install wheel
+              pip install setuptools --upgrade
+Register, confirmation and login: https://pypi.python.org/pypi
+or test https://wiki.python.org/moin/TestPyPI
+
+Generar archivo de configuración:
+nano ~/.pypirc (si no existe)
+
+[distutils]
+index-servers=pypi
+
+[pypi]
+repository = https://upload.pypi.org/legacy/
+username = <username>
+password = <password>
+
+Si no se guarda la password se puede llamar utilizando -p PASSWORD
+
+python setup.py bdist (genera archivos egg y meta) o bien python setup.py egg_info
+
+Llenar formulario:
+https://pypi.python.org/pypi?%3Aaction=submit_form
+
+python setup.py bdist_wheel (genera distribucion wheel)
+
+O bien python setup.py sdist bdist_wheel upload y se subirá el archivo automáticamente.
+
+
+Ya podemos hacer: pip install myscript

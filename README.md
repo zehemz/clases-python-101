@@ -103,5 +103,5 @@ __http://www.apache.org/licenses/LICENSE-2.0.txt__
 
 [**_Micelaneos_**](11.0-dist)
 * [Crear paquetes de distribucion para Debian](11.0-dist/dist_debian.txt)
-* Python sobre Windows, creando instaladores
+* [Python sobre Windows, creando instaladores](11.0-dist/dist_windows.txt)
 * Subir proyectos a PIP
