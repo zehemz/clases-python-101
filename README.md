@@ -65,12 +65,30 @@ __http://www.apache.org/licenses/LICENSE-2.0.txt__
 [**_Avanzado_**]()
 * Programas multitareas - Threads
 * Control de errores, manejo de excepciones
-
 * Impactando un Web Service
 * Leyendo una URL
 * Trabajando en Red - Sockets
 * Mail
 * FTP
+
+* Ejercicios! (TODO)
+
+[**_Almacenamiento de información_**]()
+* Lenguaje SQL
+* Utilizando la base de datos MySQL
+* Utilizando la base de datos SQLITE
+
+* Ejercicios! (TODO)
+
+[**_Distribución de aplicaciones_**](11.0-dist)
+* [Crear paquetes de distribucion para Debian](11.0-dist/dist_debian.txt)
+* [Python sobre Windows, creando instaladores](11.0-dist/dist_windows.txt)
+* [Subir proyectos a PIP](11.0-dist/pip_upload.txt)
+
+[**_Python en la Web_**]()
+* Flask
+* ¿Que es un WSGI?
+* Introduccion a Django
 
 * Ejercicios! (TODO)
 
@@ -81,27 +99,9 @@ __http://www.apache.org/licenses/LICENSE-2.0.txt__
 * Miscelánea de Controles
 * Widgets personalizados
 
-[**_Almacenamiento de información_**]()
-* Lenguaje SQL
-* Utilizando la base de datos MySQL
-* Utilizando la base de datos SQLITE
-
-* Ejercicios! (TODO)
-
-[**_Python en la Web_**]()
-* Flask
-* ¿Que es un WSGI?
-* Introduccion a Django
-
 * Ejercicios! (TODO)
 
 [**_Algunos Patrones en Python_**]()
 * Metaclases
 * Unit testing
 * Doc testing
-* Distribución de aplicaciones
-
-[**_Micelaneos_**](11.0-dist)
-* [Crear paquetes de distribucion para Debian](11.0-dist/dist_debian.txt)
-* [Python sobre Windows, creando instaladores](11.0-dist/dist_windows.txt)
-* Subir proyectos a PIP
