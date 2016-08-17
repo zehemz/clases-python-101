@@ -13,6 +13,8 @@
 
 - Escribir un programa que diga "Aguante la Comic Sans"
 
+- Evaluar 4>3 and print("hola") - Explicar que sucede, generar un ejemplo donde la sentencia "hola" NO se ejecute.
+
 - Escribir un programa que reciba un nombre de usuario, luego de obtenerlo diga "Las computadoras dominaremos el mundo, @nombre"
 
 - Escribir un programa que reciba texto, si es una fruta y es una banana o manzana indica "yummi", si no lo es dice "puajjj"
