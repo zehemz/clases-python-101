@@ -1,2 +1,4 @@
 2.5 Expresiones regulares
-- 
+- Dado un documento o una página web generar un programa que detecte números telefónicos. Almacenarlos con pickle y en un archivo de texto.
+- Dado un documento o una página web generar un programa que detecte direcciones de correo electrónico. Almacenarlos con pickle y en un archivo de texto.
+- Dado un documento o una página web generar un programa que detecte montos (de dinero).

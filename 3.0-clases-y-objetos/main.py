@@ -1,9 +1,10 @@
-
+# -*- coding: utf-8 -*-
 class MiClase:
 
 	@staticmethod
 	def method():
-		print(range(10))	
+		print(range(10))
+		
 def main():
 	for x in range(10):
 		print(x)
@@ -11,7 +12,5 @@ def main():
 if __name__ == "__main__":
 	main()
 	MiClase.method()
-# -*- coding: utf-8 -*-
 # Que pasa si lo ponemos  "MiClase" debajo del main e intentamos correr
 #¿Cómo podemos resolverlo?
-
