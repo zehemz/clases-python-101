@@ -7,7 +7,7 @@ __http://www.apache.org/licenses/LICENSE-2.0.txt__
 **_Contenidos_**
 ================
 
-[**_Comenzando - presentación_**](python_101_01.pdf)
+**_Comenzando - presentación_**
 * Algunas características
 * Propiedades del lenguaje
 * Biblioteca estándar
@@ -23,44 +23,46 @@ __http://www.apache.org/licenses/LICENSE-2.0.txt__
 
 [**_Tipos de datos_**](1.5-tipos-de-datos)
 * [Constantes](1.5-tipos-de-datos/src/constantes.py)
-* Concepto de Main (en clase)
-* Numericos, Diccionarios, Listas, Sets (en clase)
 
 * [Ejercicios!](1.5-tipos-de-datos/ejercicios.txt)
 
 [**_Funciones y programación funcional_**](2.0-programacion-funcional)
 * [Definiendo una función](2.0-programacion-funcional/src/function_0.py)
 * [Llamando a una función](2.0-programacion-funcional/src/function_2.py)
-* [Argumentos posicionales y nominados](2.0-programacion-funcional/src/function_2.py)
 * [Argumentos defaults](2.0-programacion-funcional/src/function_2.py)
-* [Decoradores](2.0-programacion-funcional/src/function_decorators.py)
-* [Recursividad](2.0-programacion-funcional/src/function_recursive_0.py)
-* Listas por comprención
 
 * [Ejercicios!](2.0-programacion-funcional/ejercicios.txt)
 
-[**_Archivos_**](2.5-archivos)
-* [Persistencia de información con pickle](2.5-archivos/src/picklesample.py)
-* [Lectura y escritura](2.5-archivos/src/lectoescritura.py)
-* Parseo de argumentos
-	* [sys argument parse](2.5-archivos/src/argumentos.py)
-	* [argparser](2.5-archivos/src/argparser.py)
+[**_Programacion orientada a objetos_**](3.0-clases-y-objetos)
+* [Definiendo una clase] (3.0-clases-y-objetos/src/auto.py)
+* [Métodos y atributos de instancia] (3.0-clases-y-objetos/src/auto.py)
 
-* [Ejercicios!]()  **TODO**
+* [Ejercicios!](3.0-clases-y-objetos/ejercicios.txt)
+
+* [Métodos y atributos de clase]
+* Herencia
+* Módulos
+* [Recursividad](2.0-programacion-funcional/src/function_recursive_0.py)
+* [Decoradores](2.0-programacion-funcional/src/function_decorators.py)
+* [Argumentos posicionales y nominados](2.0-programacion-funcional/src/function_2.py)
+* Listas por comprención
+* Concepto de Main (en clase)
+* Numericos, Diccionarios, Listas, Sets (en clase)
+
+
+[**_Archivos_**](3.5-archivos)
+* [Persistencia de información con pickle](3.5-archivos/src/picklesample.py)
+* [Lectura y escritura](3.5-archivos/src/lectoescritura.py)
+* Parseo de argumentos
+	* [sys argument parse](3.5-archivos/src/argumentos.py)
+	* [argparser](3.5-archivos/src/argparser.py)
+
+* [Ejercicios!](3.5-archivos/ejercicios.txt)  **TODO**
 
 [**_Expresiones Regulares_**](4.0-expresiones-regulares)
 * [Expresiones regulares]() **TODO**
 
-* [Ejercicios!]()  **TODO**
-
-[**_Programacion orientada a objetos_**](3.0-clases-y-objetos)
-* Definiendo una clase
-* Métodos y atributos de instancia
-* Métodos y atributos de clase
-* Herencia
-* Módulos
-
-* [Ejercicios!]()  **TODO**
+* [Ejercicios!](4.0-expresiones-regulares/ejercicios.txt)  **TODO**
 
 [**_Avanzado_**]()
 * Programas multitareas - Threads

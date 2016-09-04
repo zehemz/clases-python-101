@@ -1,5 +1,15 @@
 - Clases y Objetos
 
+- Ver auto.py en 3.0 ¿se entiende como está modelado? Consultas por slack.
+- Con auto.py hacer un programa que haga acelerar el auto a 100 km por hora, luego frenarlo y apagarlo.
+- Se requiere modelar un "contacto" con clases (debe poseer los mismos datos que ejercicio de 1.5).
+- Se requiere modelar una "agenda de contactos"(debe poseer las mismas funciones (ag, editar, etc) que ejercicio de 1.5).
+- Luego de modelar Agenda y Contacto nos piden que integremos dichas clases a nuestro sistema de contactos original (diccionario) (ver ultimo ejercicio de 1.5).
+
+Luego de esto, en teoría estaría todo funcionando de la misma manera que antes.
+
+Para ir pensando, NO deben entregar este ejercicio por ahora, vamos a modelarlo en clase. Pueden traer sus ideas ya hechas para debatir entre todos.
+
 1) Modelar una clase personaje, que posea las siguientes características:
 	- Tiene nombre.
 	- Posee nivel, todos los personajes inician en nivel 1.
@@ -35,7 +45,7 @@
 
 6) Modelar Mundo:
 	- En el mundo no existen 2 personajes con el mismo nombre.
-	- El mundo inicia con 4 personajes a elección.
+	- El mundo inicia con 4 personajes a elección (de usuario o no)
 	- El mundo recibe instrucciones del juego que pueden ser:
 		- Se pueden agregar personajes.
 		- Se pueden eliminar personajes.
