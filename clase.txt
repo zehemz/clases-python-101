@@ -1,0 +1,83 @@
+Clase 4:
+
+open - webbrowser - os - ¿Donde vive open?
+brad = turtle.Turtle()
+(brad es un objeto de tortuga)
+
+explicar os, rename, moverse entre directorios.
+Go python doc - open (built-in) -> return object.
+
+file = 	open("")
+contents_of_files = file.read()
+print(contents_of_files) ## LOCO!
+file.close()
+
+verificador de malas palabras.
+- leer el texto
+- chequear malas palabras.
+corrector ortografico / terminator excercise.
+http://www.wdylike.appspot.com/?q=shit
+connection = urllib.urlopen("http://www.wdylike.appspot.com/?q=" + contents_of_files)
+output = connection.read()
+connection.close()
+
+
+file es un objeto de File().
+def __init__():
+"parece una función"
+
+Elegir una built-in function que no hayamos visto
+explicarla en un documento.
+
+Python styleguide
+https://google.github.io/styleguide/pyguide.html
+
+Ejemplo clase mago, guerrero, etc.
+Ejemplo clase T1000
+
+
+Clase 5:
++ os, join y regular expresions
+pendientes de clase 4
+
+Clase 6:
+Herencia (libro python 5ta edicion / python para todos)
+Recursividad (libro python 5ta edicion)
+Manejo de erres (try catch) (python para todos)
+
+Clase 7:
+Thread - Contador reloj - web services sobre thread.
+http://www.ibm.com/developerworks/aix/library/au-threadingpython/
+http://www.slideshare.net/dabeaz/an-introduction-to-python-concurrency
+http://stackoverflow.com/questions/7168508/background-function-in-python
+
+Clase 8:
+Sockets
+Mail
+Ftp
+
+Clase 9:
+Qt - VER
+
+Clase 9-bis:
+Qt - VER
+
+Clase 10:
+Bases de datos
+
+Clase 11:
+Django
+
+Clase 12:
+Django
+
+Clase 13:
+Unit test - VER
+Empaquetando  - ok!
+Pip - ok!
+
+Clase 14:
+Proyecto final.
+Web - blog porfolio
+Scrapper de noticias + interfas de usuario (web / desktop)
+Juego simple.
