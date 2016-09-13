@@ -1,4 +1,7 @@
-## python -m pip install Pillow
+#!/usr/bin/python3.5
+# -*- coding: utf-8 -*-
+
+''' python3.5 -m pip install Pillow  biblioteca necesaria para usar PIL Image'''
 from PIL import Image
 
 if __name__ == "__main__":

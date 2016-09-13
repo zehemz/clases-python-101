@@ -7,7 +7,7 @@ __http://www.apache.org/licenses/LICENSE-2.0.txt__
 **_Contenidos_**
 ================
 
-**_Comenzando** (Clase 1)
+**_Comenzando_** (Clase 1)
 
 * Algunas características
 * Propiedades del lenguaje
@@ -18,34 +18,33 @@ __http://www.apache.org/licenses/LICENSE-2.0.txt__
 
 * [Tipos básicos de datos](1.0-comenzando/src/main.py)
 * [I/O print - input - raw_input](1.0-comenzando/src/main.py)
-* [Ejemplo web services](1.0-comenzando/src/ejemploWS/)
 * [Comparativa de velocidades simple y uso de C en python](1.0-comenzando/src/ejemplosC/execute.txt)
 
 * [Ejercicios!](1.0-comenzando/src/ejercicios.txt)
 
-[**_Tipos de datos_**](1.5-tipos-de-datos) (Clase 1-2)
+[**_Tipos de datos_**](2.0-tipos-de-datos) (Clase 1-2)
 
-* [Constantes](1.5-tipos-de-datos/src/constantes.py)
-* Numericos, Diccionarios, Listas, Sets
+* [Constantes](2.0-tipos-de-datos/src/constantes.py)
 * Concepto de Main
+* Numericos, Diccionarios, Listas, Sets
 
-* [Ejercicios!](1.5-tipos-de-datos/ejercicios.txt)
+* [Ejercicios!](2.0-tipos-de-datos/ejercicios.txt)
 
-[**_Funciones_**](2.0-programacion-funcional) (Clase 2)
+[**_Funciones_**](2.0-funciones) (Clase 2)
 
-* [Definiendo una función](2.0-programacion-funcional/src/function_0.py)
-* [Llamando a una función](2.0-programacion-funcional/src/function_2.py)
-* [Argumentos defaults](2.0-programacion-funcional/src/function_2.py)
+* [Definiendo una función](2.0-funciones/src/function_0.py)
+* [Llamando a una función](2.0-funciones/src/function_2.py)
+* [Argumentos defaults](2.0-funciones/src/function_2.py)
 
-* [Ejercicios!](2.0-programacion-funcional/ejercicios.txt)
+* [Ejercicios!](2.0-funciones/ejercicios.txt)
 
-[**_Funciones y Programación funcional parte 1_**](2.5-prog-funcional-map-filter-lambda/ejercicios.txt) (Clase 3)
+[**_Funciones y Programación funcional parte 1_**](3.0-prog-funcional-map-filter-lambda/ejercicios.txt) (Clase 3)
 
 * Funciones anónimas
 * Map y filter
 * Listas por comprención
 
-* [Ejercicios!](2.5-prog-funcional-map-filter-lambda/ejercicios.txt)
+* [Ejercicios!](3.0-prog-funcional-map-filter-lambda/ejercicios.txt)
 
 [**_Programacion orientada a objetos parte 1_**](3.0-clases-y-objetos) (Clase 3)
 
@@ -70,18 +69,17 @@ Clase 4: Lectura de archivos, parseo de información desde archivo, ejercicio me
 
 Clase 5:
 
-* Parseo de argumentos
-	* [sys argument parse](5.0-archivos/src/argumentos.py)
-	* [argparser](5.0-archivos/src/argparser.py)
-
-* [Persistencia de información con pickle](5.0-archivos/src/picklesample.py) **TODO**
-
-* [Ejercicios!](5.0-archivos/ejercicios.txt) **TODO**
-
 **_Programacion orientada a objetos parte 2_** **TODO**
 * [Herencia]()
 * [Properties]()
 * [Sobrecarga]()
+
+[**_Archivos_**](5.0-archivos)
+* [Lectura y escritura](5.0-archivos/src/lectoescritura.py)   (Clase 4)
+* Parseo de argumentos
+	* [sys argument parse](5.0-archivos/src/argumentos.py)
+	* [argparser](5.0-archivos/src/argparser.py)
+* [Persistencia de información con pickle](5.0-archivos/src/picklesample.py) **TODO**
 
 **_Funciones y Programación funcional parte 2_** **TODO**
 
@@ -89,7 +87,7 @@ Clase 5:
 * [Recursividad](2.0-programacion-funcional/src/function_recursive_0.py)
 * [Decoradores](2.0-programacion-funcional/src/function_decorators.py)
 
-* [Ejercicios!](2.0-programacion-funcional/ejercicios.txt)
+* [Ejercicios!]()
 
 
 Clase 6:
@@ -165,3 +163,21 @@ https://google.github.io/styleguide/pyguide.html
 * Metaclases
 * Unit testing
 * Doc testing
+
+
+Recursividad:
+ *** Se deberá tratar de pensar de manera recursiva las resoluciones de los siguientes ejercicios.
+
+- Revertir una lista.
+
+- Dado una lista de numeros calcular la sumatoria de dicho número.
+
+- Calcular el Nesimo número de fibbonacci. (Help: WIKI)
+
+- Dadas 2 listas con la misma cantidad de elementos intercalarlos.
+Ejemplo: [1,2,3,4] y [9,8,7,6] -> [1,9,2,8,3,7,4,6]
+
+- Dada una lista de números enteros y un numero entero n,revertir la lista n veces y retornar cada elemento multiplicado por n
+
+Tarea:
+- ¿Es posible generar una lista de tags html de manera recursiva?

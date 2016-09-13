@@ -1,3 +1,6 @@
+#!/usr/bin/python3.5
+# -*- coding: utf-8 -*-
+''' Resolución de ejercicio T1000'''
 import hashlib
 
 def handShakeDecode(fullDocument):
