@@ -2,7 +2,7 @@
 from PIL import Image
 
 if __name__ == "__main__":
-    picture = Image.open("message2.png")
+    picture = Image.open("imagen_con_colores_alterados.png")
     pixelPossibleValues = [ (x,y) for x in range(picture.width) for y in range(picture.height)]
 
     for x,y in pixelPossibleValues:
