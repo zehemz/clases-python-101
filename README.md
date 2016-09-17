@@ -56,42 +56,52 @@ __http://www.apache.org/licenses/LICENSE-2.0.txt__
 
 [**_Ejercicios para fortalecer conocimientos_**](4.0-extras-ejercicios)  (Clase 4)
 
-[**_Archivos_**](5.0-archivos)
+[**_Funciones y Programación funcional parte 2_**](5.0-programacion-funcional) (Clase 5)
 
-* [Lectura y escritura](5.0-archivos/src/lectoescritura.py)   (Clase 4)
+* [Argumentos posicionales y nominados](2.0-programacion-funcional/src/function_2.py)
+* [Recursividad](5.0-programacion-funcional/src/ejemplo_recursividad.py)
+* [Decoradores](5.0-programacion-funcional/src/ejemplo_decoradores.py)
+* [Ejercicios](5.0-programacion-funcional/src/ejercicios.txt)
 
-########################### HASTA ACÁ SE DIO 10/09 #################
+[**_Programacion orientada a objetos parte 2_**](5.0-clases-y-objetos) (Clase 5)
+* [Metodos estáticos](5.0-clases-y-objetos/src/metodos_estaticos.py)
+* [Herencia](5.0-clases-y-objetos/src/ejemplo_herencia.py)
+* [Uso de super](5.0-clases-y-objetos/src/sobrecarga.py)
+* [Sobrecarga](5.0-clases-y-objetos/src/sobrecarga.py)
+* [Argumentos y super](5.0-clases-y-objetos/src/argumentos_y_super.py)
+* [Visibilidad](5.0-clases-y-objetos/src/auto_volador.py)
+* [Propiedades]()
+* [Add, all, str, next]()
+* [Ejercicios](5.0-clases-y-objetos/src/ejercicios.txt)
+
+[**_Archivos_**](5.0-archivos) (Clase 4 y clase 5)
+* [Lectura y escritura](5.0-archivos/src/lectoescritura.py)
+* Parseo de argumentos
+	* [sys argument parse](5.0-archivos/src/argumentos.py)
+	* [argparser](5.0-archivos/src/argparser.py)
+	* [Persistencia de información con pickle](5.0-archivos/src/picklesample.py)
+
+
+########################### HASTA ACÁ SE DIO 10/09 ###########################
 Clase 1: intro if for while tipos de datos basicos numericos.
 Clase 2: entorno, listas, tuplas diccionarios, funciones.
 Clase 3: Programacion funcional: lambda, map, filter, listas por comprensión.
 Clase 4: Lectura de archivos, parseo de información desde archivo, ejercicio mensaje secreto, ejercicio T1000, ejercicio colores.
 
 
-Clase 5:
+########################### Lo que viene ###########################
+Clase 5: POO - Herencia, sobrecarga, propiedades. Argumentos y persistencia de datos. Programación funcional (recursividad), decoradores, argumentos.
+Clase 6: Expresiones Regulares. Leyendo URL, impactando web services, mail, ftp.
+Clase 7: Programas multitareas (threads). Trabajando en red (sockets).
+Clase 8: Interfaz gráfica con pyqt.
+Clase 9: Interfaz gráfica con pyqt.
+Clase 10: SQL y ORM
+Clase 11: Flask y django.
+Clase 12: django.
 
-**_Programacion orientada a objetos parte 2_** **TODO**
-* [Herencia]()
-* [Properties]()
-* [Sobrecarga]()
-
-[**_Archivos_**](5.0-archivos)
-* [Lectura y escritura](5.0-archivos/src/lectoescritura.py)   (Clase 4)
-* Parseo de argumentos
-	* [sys argument parse](5.0-archivos/src/argumentos.py)
-	* [argparser](5.0-archivos/src/argparser.py)
-* [Persistencia de información con pickle](5.0-archivos/src/picklesample.py) **TODO**
-
-**_Funciones y Programación funcional parte 2_** **TODO**
-
-* [Argumentos posicionales y nominados](2.0-programacion-funcional/src/function_2.py)
-* [Recursividad](2.0-programacion-funcional/src/function_recursive_0.py)
-* [Decoradores](2.0-programacion-funcional/src/function_decorators.py)
-
-* [Ejercicios!]()
 
 
 Clase 6:
-
 [**_Expresiones Regulares_**](6.0-expresiones-regulares)
 * [Expresiones regulares]() **TODO**
 

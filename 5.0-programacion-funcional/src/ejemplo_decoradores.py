@@ -128,3 +128,7 @@ def apply(func, x, y): # 1
 if __name__ == '__main__':
     wellcome()
     saludar()
+
+    add("holis", "chauchis")
+    add(3.4, 4.5)
+    sub(3,5)
