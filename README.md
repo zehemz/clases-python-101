@@ -81,41 +81,34 @@ __http://www.apache.org/licenses/LICENSE-2.0.txt__
 	* [argparser](5.0-archivos/src/argparser.py)
 	* [Persistencia de información con pickle](5.0-archivos/src/picklesample.py)
 
+[**_Expresiones Regulares_**](6.0-expresiones-regulares)
+* Expresiones regulares (regex)
+* Control de errores, manejo de excepciones (try-except)
+* Sentencias where y yield
+* Impactando un Web Service
+* Leyendo una URL
+* Mail
+* FTP
+* [Ejercicios](6.0-expresiones-regulares/ejercicios.txt)
 
-########################### HASTA ACÁ SE DIO 10/09 ###########################
+########################### HASTA ACÁ SE DIO 01/10 ###########################
 Clase 1: intro if for while tipos de datos basicos numericos.
 Clase 2: entorno, listas, tuplas diccionarios, funciones.
 Clase 3: Programacion funcional: lambda, map, filter, listas por comprensión.
 Clase 4: Lectura de archivos, parseo de información desde archivo, ejercicio mensaje secreto, ejercicio T1000, ejercicio colores.
-
+Clase 5: POO - Herencia, sobrecarga, propiedades. Argumentos y persistencia de datos. Programación funcional (recursividad), decoradores, argumentos.
+Clase 6: Expresiones Regulares. Control de errores, manejo de excepciones.
+Sentencias where y yield. Leyendo URL, impactando web services, mail, ftp.
 
 ########################### Lo que viene ###########################
-Clase 5: POO - Herencia, sobrecarga, propiedades. Argumentos y persistencia de datos. Programación funcional (recursividad), decoradores, argumentos.
-Clase 6: Expresiones Regulares. Leyendo URL, impactando web services, mail, ftp.
 Clase 7: Programas multitareas (threads). Trabajando en red (sockets).
 Clase 8: Interfaz gráfica con pyqt.
 Clase 9: Interfaz gráfica con pyqt.
 Clase 10: SQL y ORM
-Clase 11: Flask y django.
-Clase 12: django.
+Clase 11: django.
+Clase 12: Flask y django.
 
 
-
-Clase 6:
-[**_Expresiones Regulares_**](6.0-expresiones-regulares)
-* [Expresiones regulares]() **TODO**
-
-* [Ejercicios!](6.0-expresiones-regulares/ejercicios.txt)
-
-* Control de errores, manejo de excepciones
-* Leyendo una URL
-* Impactando un Web Service
-* Mail
-* FTP
-
-* [Ejercicios!]()
-
-Clase 7:
 
 * Programas multitareas - Threads
 * Trabajando en Red - Sockets

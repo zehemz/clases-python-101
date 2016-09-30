@@ -17,17 +17,11 @@ if __name__ == '__main__':
     print(Auto.__class__)
 
     autoVolador = AutoVolador()
-
     print(dir(autoVolador))
-    # Vemos cual es su clase padre
-    print(autoVolador.__class__.__base__)
-    # Vemos si es un objeto de alguna clase
-    print(autoVolador.__class__)
 
-    autoVolador.abrocharCinto(True)
     autoVolador.encender()
-    autoVolador.despegar()
+    autoVolador.abrocharCinto(True)
     autoVolador.acelerar()
     autoVolador.acelerar()
-    autoVolador.acelerar()
-    autoVolador.aterrizar()
+
+    #
