@@ -23,7 +23,6 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls), #Salvo este, vaya dios a saber por que django se pasa
 ]
 
-
 ##demo linter
 def agarrame_la_milanga(agarrame_la_milanga_express):
     '''agarrame_la_milanga'''
