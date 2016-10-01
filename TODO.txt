@@ -1,3 +1,45 @@
+Respuestas regex
+
+
+abc…	Letras
+123…	Digitos
+\d	Cualquier digito
+\D	Cualquier caracter NO digito
+.	Cualquier caracter
+\.	Punto
+[abc]	Unicamente a, b o c
+[^abc]	No a, b, nor c
+[a-z]	Caracteres, de la a hasta z
+[0-9]	Numeros 0 a 9
+\w	Cualquier caracter alfanumérico
+\W	Cualquier caracter NO alfanumérico
+{m}	m repeticiones
+{m,n}	m hasta n repeticiones
+*	0 o más repeticiones
++	Una o más repeticiones
+?	Opcional
+\s	cualquier espacio en blanco
+\S	cualquier caracter que no sea un espacio en blanco
+^…$	empieza y termina
+(…)	grupo de captura
+(a(bc))	subgrupo de captura
+(.*)	Captura todo
+(abc|def)	Machea abc o def
+
+Ejercicios REGEX:
+
+abc?.+
+.+\d{3}.+
+(c|m|f)an
+(h|d)og
+[A-Z]\w{2}
+waz{2,}up
+a+(b+)?cc?
+\d\d? files? found\?
+[1-3]\.\s+abc
+(file_record_transcript|file_07241999).pdf$
+
+
 Archivos
 Expresiones regulares
 Listas por comprencion
