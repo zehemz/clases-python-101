@@ -70,8 +70,8 @@ __http://www.apache.org/licenses/LICENSE-2.0.txt__
 * [Sobrecarga](5.0-clases-y-objetos/src/sobrecarga.py)
 * [Argumentos y super](5.0-clases-y-objetos/src/argumentos_y_super.py)
 * [Visibilidad](5.0-clases-y-objetos/src/auto_volador.py)
-* [Propiedades]()
-* [Add, all, str, next]()
+* Propiedades
+* Add, all, str, next
 * [Ejercicios](5.0-clases-y-objetos/src/ejercicios.txt)
 
 [**_Archivos_**](5.0-archivos) (Clase 4 y clase 5)
@@ -98,7 +98,7 @@ Clase 3: Programacion funcional: lambda, map, filter, listas por comprensión.
 Clase 4: Lectura de archivos, parseo de información desde archivo, ejercicio mensaje secreto, ejercicio T1000, ejercicio colores.
 Clase 5: POO - Herencia, sobrecarga, propiedades. Argumentos y persistencia de datos. Programación funcional (recursividad), decoradores, argumentos.
 Clase 6: Expresiones Regulares. Control de errores, manejo de excepciones.
-Sentencias where y yield. Leyendo URL, impactando web services, mail, ftp.
+Sentencia where. Leyendo URL, impactando web services, mail, ftp.
 
 ########################### Lo que viene ###########################
 Clase 7: Programas multitareas (threads). Trabajando en red (sockets).
