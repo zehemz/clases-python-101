@@ -1,0 +1,146 @@
+\recuadrar{\textbf{iVacia}{$\rightarrow$ $res$:colaPrioridad($\alpha$)}
+\begin{algorithmic}
+  \STATE  \TipoVariable{ res $\leftarrow$ <0, NULL> } \ \ \ $\Ode{1}$
+\end{algorithmic}
+}
+ \underline{Complejidad:} \Ode{1} \\
+ \underline{Justificaci\'on:}  se genera la tupla en \Ode{1}
+
+ \recuadrar{\textbf{iVacia?}{ (\textbf{in/out} $c$ : \TipoVariable{colaPrioridad($\alpha$)}) $\rightarrow$ $res$:bool}
+ \begin{algorithmic}
+   \STATE  \TipoVariable{ res $\leftarrow$ c.raiz == NULL } \ \ \ $\Ode{1}$
+ \end{algorithmic}
+ }
+  \underline{Complejidad:} \Ode{1} \\
+  \underline{Justificaci\'on:}  una asignaci\'on m\'as una comparacion \Ode{1}+\Ode{1} = \Ode{1}
+
+  \recuadrar{\textbf{iProximo}{ (\textbf{in/out} $c$ : \TipoVariable{colaPrioridad($\alpha$)}) $\rightarrow$ $res$:$\alpha$}
+  \begin{algorithmic}
+    \STATE  \TipoVariable{ res $\leftarrow$ c.raiz $\rightarrow$ valor } \ \ \ $\Ode{1}$
+  \end{algorithmic}
+  }
+   \underline{Complejidad:} \Ode{1} \\
+   \underline{Justificaci\'on:}  Devuelve el valor de la ra\'iz, acceso a valor de puntero \Ode{1}
+
+
+\begin{algorithm}
+\caption{Proximo}
+\begin{algorithmic}[1]
+  \Procedure{iProximo}{\texttt{in} c : \texttt{colaPrioridad($\alpha$)}} $\to res$ : $\alpha$
+  \State $res \gets$ $c \to raiz \to valor$ \Comment $\Ode{1}$
+ \EndProcedure
+\end{algorithmic}
+ \underline{Complejidad:} $\Ode{1)$
+\end{algorithm}
+
+\begin{algorithm}
+\caption{Desencolar}
+\begin{algorithmic}[1]
+  \Procedure{iDesencolar}{\texttt{in/out} c : \texttt{colaPrioridad($\alpha$)}} $\to res$ : $\alpha$
+  	\State $res \gets$ $ borrar(c \to raiz \to valor, c)$ \Comment $\Ode{1}$
+  	%TODO agregar tema de iterador.
+\end{algorithmic}
+ \underline{Complejidad:} $ Complejidad de borrar$\\
+ \underline{Justificaci\'on: } $ Es el unico procedimiento que se llama $
+\end{algorithm}
+
+\begin{algorithm}
+\caption{Eliminar}
+\begin{algorithmic}[1]
+  \Procedure{iEliminar}{\texttt{in/out} c : \texttt{colaPrioridad($\alpha$)}} $\to res$ : $\alpha$
+  	%TODO agregar tema de iterador.
+\end{algorithmic}
+%TODO
+\underline{Complejidad:} $ $\\
+\underline{Justificaci\'on: } $ Es el unico procedimiento que se llama $
+\end{algorithm}
+
+\begin{algorithm}
+\caption{Swap}
+\begin{algorithmic}[1]
+  \Procedure{iSwap}{\texttt{in/out} $h$ : \texttt{ab($\alpha$)}, \texttt{in/out} $padre$ : \texttt{puntero(nodo($\alpha$))} \texttt{in/out} $hijo$ : \texttt{puntero(nodo($\alpha$))}}
+	\State \Comment $Pre: padre \neq NULL \land hijo \neq NULL \yluego (hijo = padre \to izq \lor hijo = padre \to der)$
+  \If{$hijo$ = $padre \to izq$} \Comment $\Ode{1}$
+    \State puntero(nodo) $derechoPadre \gets padre \to der$ \Comment $\Ode{1}$
+    \State $padre \to der \gets hijo \to der$ \Comment $\Ode{1}$
+    \State $padre \to izq \gets hijo \to izq$ \Comment $\Ode{1}$
+    \State $hijo \to izq \gets padre$ \Comment $\Ode{1)$
+    \State $hijo \to der \gets derechoPadre$ \Comment $\Ode{1}$
+  \Else
+    \State puntero(nodo) $izquierdoPadre \gets padre \to izq$ \Comment $\Ode{1}$
+    \State $padre \to izq \gets hijo \to izq$ \Comment $\Ode{1}$
+    \State $padre \to der \gets hijo \to der$ \Comment $\Ode{1}$
+    \State $hijo \to der \gets padre$ \Comment $\Ode{1}$
+    \State $hijo \to izq \gets izquierdoPadre$ \Comment $\Ode{1}$
+  \EndIf
+
+  \State $hijo \to padre \gets padre \to padre$ \Comment $\Ode{1}$
+  \State $padre \to padre \gets hijo$ \Comment $\Ode{1}$
+
+  \If{$hijo \to padre$ = NULL} \Comment $\Ode{1}$
+    \State$h$.cabeza $\gets hijo$ \Comment $\Ode{1}$
+  \EndIf
+ \EndProcedure
+\end{algorithmic}
+ \underline{Complejidad:} $\Ode{1}$\\
+ \underline{Justificaci\'on:} Se producen siempre asignaciones, en el peor caso son 8 de ellas $\Ode{1}$.
+\end{algorithm}
+
+\begin{algorithm}
+\caption{SiftUp}
+\begin{algorithmic}[1]
+  \Procedure{iSiftUp}{\texttt{in/out} $c$ : \texttt{colaPrioridad($\alpha$)}, \texttt{in/out} $nodo$ : \texttt{puntero(nodo($\alpha$))}
+ \EndProcedure
+\end{algorithmic}
+ \underline{Complejidad:} $ $\\
+ \underline{Justificaci\'on:}  $ $
+\end{algorithm}
+
+\begin{algorithm}
+\caption{Encolar}
+\begin{algorithmic}[1]
+  \Procedure{iEncolar}{\texttt{in/out} $h$ : \texttt{ab($\alpha$)}, \texttt{in} $a$ : $\alpha$} $\to res$ : $\alpha$
+  \State puntero(nodo) $nuevoNodo \gets$ Nodo(NULL, NULL, NULL, $a$) \Comment $\Ode{1}$
+
+  \If{$tam$ = 0} \Comment $\Ode{1}$
+    \State $cabeza \gets p$ \Comment $\Ode{1}$
+  \Else
+
+    \State lista($nat$) $recorridoHastaUltimo \gets$ Vacia() \Comment $\Ode{1}$
+    \State $x \gets h.tam+1$ \Comment $\Ode{1}$
+    \While{x > 1}  \Comment Se repite $\Ode{log(x)) = \Ode{log(tam)}$ veces
+      \State agregarAdelante($recorridoHastaUltimo$, $x$\% 2) \Comment $\Ode{copy(\alpha)}$
+      \State $x \gets \frac{x}{2}$ \Comment $\Ode{1)$
+    \EndWhile
+    \State puntero(nodo) $padreNuevo \gets h.cabeza$ \Comment $\Ode{1}$
+    \State itLista($nat$) $i \gets$ crearIt(recorridoHastaUltimo) \Comment $\Ode{1}$
+
+    \Repeat
+      \If {Siguiente(i) = 0} \ $padreNuevo \gets padreNuevo.izq$ \Comment $\Ode{1}$
+      \Else \  $padreNuevo \gets padreNuevo.izq$ \Comment $\Ode{1)$
+      \EndIf
+      \State $i \gets$ Avanzar($i$) \Comment $\Ode{1)$
+    \Until{Siguiente?($i$) $\neq$ ultimo(recorridoHastaUltimo)}  \Comment Se repite $\Ode{log(tam)}$ veces
+
+    \State $nuevo \to padre \gets padreNuevo$ \Comment $\Ode{1}$
+
+    \If{ultimo(recorridoHastaUltimo) = 0} \Comment $\Ode{1)$
+      \State $padreNuevo \to izq \gets nuevoNodo$ \Comment $\Ode{1}$
+    \Else
+       \State $padreNuevo \to der \gets nuevoNodo$ \Comment $\Ode{1}$
+    \EndIf
+
+    \State puntero(nodo) $nodoActual \gets nuevoNodo$ \Comment $\Ode{1}$
+
+    \While{$(nodoActual \to padre \neq NULL \land nodoActual \to padre \to dato > nodoActual \to dato)$}  \Comment Se repite $\Ode{log(tam))$ veces
+
+      \State Intercambiar($h$, $nodoActual \to padre$, $nodoActual$) \Comment $\Ode{1}$
+    \EndWhile
+   \EndIf
+  \State $tam++$ \Comment $\Ode{1)$
+ \EndProcedure
+
+\end{algorithmic}
+ \underline{Complejidad:} $ $ \\
+ \underline{Justificacin:} $  $.
+\end{algorithm}
