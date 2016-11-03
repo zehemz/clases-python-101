@@ -305,3 +305,6 @@ Python Path:
 Agregar str function a un modelo.
 Agregar modelos a admin.py
 Ahora, crear templates
+
+
+manage.py shell

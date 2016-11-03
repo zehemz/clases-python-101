@@ -18,4 +18,7 @@ urlpatterns = [
     # url(r'^(?P<question_id>[0-9]+)/results/$', views.results, name='results'),
     # ex: /polls/5/vote/
     url(r'^(?P<question_id>[0-9]+)/vote/$', views.vote, name='vote'),
+    #ex: admin/miapp/contact/4/change/images/nombre.../change/
+    #admin/miapp/contact/4/change/images/FlICmGnj.jpeg/change/
+    url(r'^admin/miapp/contact/(?P<contact_id>[0-9]+)/change/images/(?P<file_name>)/change/$', views.image, name='image')
 ]

@@ -46,6 +46,9 @@ def vote(request, question_id):
         # user hits the Back button.
         return HttpResponseRedirect(reverse('miapp:results', args=(question.id,)))
 
+def image(request, contact_id, file_name):
+    return HttpResponse('<img src="%s" />' % file_name)
+
 # def index(request):
 #     latest_question_list = Question.objects.order_by('-pub_date')[:5]
 #     context = {'latest_question_list': latest_question_list}

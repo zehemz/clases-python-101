@@ -9,7 +9,7 @@ class ChoiceInline(admin.StackedInline):
     model = Choice
     extra = 3
 
-
+@admin.register(Question)
 class QuestionAdmin(admin.ModelAdmin):
     fieldsets = [
         (None,               {'fields': ['question_text']}),
@@ -17,10 +17,23 @@ class QuestionAdmin(admin.ModelAdmin):
     ]
     inlines = [ChoiceInline]
 
-admin.site.register(Question, QuestionAdmin)
 
+@admin.register(Contact)
+class ContactAdmin(admin.ModelAdmin):
+    pass
+
+# fieldsets = (
+#     (None, {
+#         'fields': ('url', 'title', 'content', 'sites')
+#     }),
+#     ('Advanced options', {
+#         'classes': ('collapse',),
+#         'fields': ('registration_required', 'template_name'),
+#     }),
+# )
+
+#admin.site.register(Contact, ContactAdmin)
+#admin.site.register(Question, QuestionAdmin)
 # admin.site.register(Question)
 # admin.site.register(Choice)
-admin.site.register(Contact)
-
 # Register your models here.
