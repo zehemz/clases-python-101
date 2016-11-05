@@ -3,7 +3,9 @@ from django.contrib import admin
 from .models import Question
 from .models import Choice
 from .models import Contact
-
+#https://www.djangosnippets.org/snippets/934/
+#http://www.psychicorigami.com/2009/06/20/django-simple-admin-imagefield-thumbnail/
+#https://docs.djangoproject.com/es/1.10/ref/contrib/admin/actions/
 
 class ChoiceInline(admin.StackedInline):
     model = Choice
@@ -17,10 +19,35 @@ class QuestionAdmin(admin.ModelAdmin):
     ]
     inlines = [ChoiceInline]
 
+from .image_widget import AdminImageWidget
+from django import forms
 
-@admin.register(Contact)
-class ContactAdmin(admin.ModelAdmin):
-    pass
+# class FileUploadForm(forms.ModelForm):
+#     upload = forms.FileField(widget=AdminImageWidget)
+#     class Meta:
+#         model = Contact
+#         fields = '__all__'
+class FileUploadAdmin(admin.ModelAdmin):
+    # form = FileUploadForm
+    def formfield_for_dbfield(self, db_field, **kwargs):
+        if db_field.name == 'photo':
+            request = kwargs.pop("request", None)
+            kwargs['widget'] = AdminImageWidget
+            return db_field.formfield(**kwargs)
+        return super(FileUploadAdmin,self).formfield_for_dbfield(db_field, **kwargs)
+
+admin.site.register(Contact, FileUploadAdmin)
+
+# class AdminImageWidget(AdminFileWidget):
+#     def render(self, name, value, attrs=None):
+#         output = []
+#         if value and getattr(value, "url", None):
+#             image_url = '../media/'+ value.url
+#             file_name=str(value)
+#             output.append(u' <a href="%s" target="_blank"><img src="%s" alt="%s" /></a> %s ' % \
+#                 (image_url, image_url, file_name, _('Change:')))
+#         output.append(super(AdminFileWidget, self).render(name, value, attrs))
+#         return mark_safe(u''.join(output))
 
 # fieldsets = (
 #     (None, {
@@ -31,9 +58,3 @@ class ContactAdmin(admin.ModelAdmin):
 #         'fields': ('registration_required', 'template_name'),
 #     }),
 # )
-
-#admin.site.register(Contact, ContactAdmin)
-#admin.site.register(Question, QuestionAdmin)
-# admin.site.register(Question)
-# admin.site.register(Choice)
-# Register your models here.

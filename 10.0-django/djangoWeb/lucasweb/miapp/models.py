@@ -1,6 +1,6 @@
 from django.db import models
 from django.utils.encoding import python_2_unicode_compatible
-from django.contrib.auth.models import User
+from django.conf import settings
 import os
 import datetime
 
@@ -31,18 +31,20 @@ class Choice(models.Model):
 
 def user_directory_path(instance, filename):
     # file will be uploaded to MEDIA_ROOT/images/<filename>
-    return 'images_{0}/{1}'.format(instance.submitter.id, filename)
+    return 'miapp/images/{0}/{1}'.format(instance.author.id, filename)
 
+@python_2_unicode_compatible
 class Contact(models.Model):
-    submitter = models.ForeignKey(User)
+    author = models.ForeignKey(settings.AUTH_USER_MODEL)
     GENDER = (('M', 'male'), ('F', 'female'))
     name = models.CharField(max_length=200)
     lastname = models.CharField(max_length=200)
     email = models.EmailField(max_length=200)
     photo = models.ImageField(upload_to=user_directory_path, blank=True, null=True)
-
+    
     def __str__(self):
         return self.email
+
 
 #'/media/miapp/photos/%Y/%m/%d'
 # def get_image_path(instance, filename):

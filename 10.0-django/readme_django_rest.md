@@ -1,14 +1,4 @@
 
-python manage.py runserver 0.0.0.0:8000 &
-
-
-Quickstart
-
-We're going to create a simple API to allow admin users to view and edit the users and groups in the system.
-Project setup
-
-Create a new Django project named tutorial, then start a new app called quickstart.
-
 # Create the project directory
 mkdir tutorial
 cd tutorial

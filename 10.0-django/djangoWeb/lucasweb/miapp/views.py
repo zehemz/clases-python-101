@@ -46,6 +46,12 @@ def vote(request, question_id):
         # user hits the Back button.
         return HttpResponseRedirect(reverse('miapp:results', args=(question.id,)))
 
+def boostrap(request):
+    return render(request, 'miapp/boostrap.html')
+
+def boostrap2(request):
+    return render(request, 'miapp/boostrap2.html')
+
 def image(request, contact_id, file_name):
     return HttpResponse('<img src="%s" />' % file_name)
 

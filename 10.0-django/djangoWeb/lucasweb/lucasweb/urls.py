@@ -15,16 +15,12 @@ Including another URLconf
 """
 from django.conf.urls import url, include #Agregado...
 from django.contrib import admin
+from django.conf.urls.static import static
+from django.conf import settings
 
 
 urlpatterns = [
     #Agregado
     url(r'^miapp/', include('miapp.urls')),
     url(r'^admin/', admin.site.urls), #Salvo este, vaya dios a saber por que django se pasa
-]
-
-##demo linter
-def agarrame_la_milanga(agarrame_la_milanga_express):
-    '''agarrame_la_milanga'''
-    agarrame_la_milanga_express = 3
-    print(agarrame_la_milanga_express)
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
