@@ -1,0 +1,121 @@
+en general una mala idea hacer multi procesamiento, excepto cuando no lo es.
+
+trade offs, limitaciones.
+
+standard lib
+
+ver en razgos generales como funciona y ver el "big picture"
+
+crear un programa que pueda hacer mas de una cosa a la vez
+
+ej: network sever.
+
+Multiples tareas (sistema operativo)
+a)---> run    --->run
+
+b)    --->run     --->run
+
+un proceso corre en 1 solo cpu, por temas de memoria y procesamiento, cache, etc.
+
+puede llegar a switchear entre tareas.
+
+mostrar ejemplo de paralelismo
+a-->run
+b-->run
+
+--->(I/O)-->(I/O)------->(i/o)
+el so se encarga de levantar las tareas y dormirlas
+
+2 tipos de tareas, de consumo de IO y las que no.
+
+Ejemplo: procesamiento de imagen (poco i/o)
+analisis matricial
+
+de mucho consumo: leer entrada de usuario, de red, file processing
+
+la mayoria de los programas son del tipo 2.
+
+----------------------------------------
+Memoria compartida
+cp1, cp2, task1, task2.
+read/write. --> eerrrorrrrororroro
+los procesos se coordinan usando IPC
+Pipes, fifo, memmory mapped regions, etc.
+---------------------------------
+
+Computo distribuido, a travez de mensajes. (clusters de estaciones de trabajo, comunicacion via socket)
+
+python es una mierda a nivel performance, porque es interpretado, o pseudo interpretado.
+Entonces a nivel performance se vuelve irrelevante, porque mayoria de los programas son i/o based
+se la pasan la mayoria del tiempo esperando.
+esto es re util python espera igual q c, entonces da igual.
+la excepcion es cuando tenes q dar cosas en tiempo real (hablar sobre sistemas de tiempo real)
+python puede extender y ejecutar de codigo c, como ya vimos
+En muchos casos utilizar concurrencia en python es un error, si se quiere ganar velocidad unicamente
+se puede mejorar con mejores algoritmos o implementaciones en c.
+
+Programacion de threads.
+
+stack y flujo independiente.
+
+comparte memoria, red, archivos.
+
+threading thread mostrar ejemplos
+
+programar basado en threads es MMUY DIFICIL.
+Comparten toda la data, el scheduler no es deterministico, no es atomico, puede ser interrumpido muchas veces.
+acceder a la info que tocan los threads tampoco es deterministica, lo que significa que te va a doler el culo saber que esta pasando.
+Hay que saber sincronizar los threads, te hace mejor programador pero tambien te vuelve loco.
+
+
+Hay foormas de sincronizar threads:
+Lock, RLock, Semaphores, Bounded semaphore, Event, Condition
+
+Lock, un thread a la vez obtiene acceso a shared data.
+
+No hacer double lock
+
+aquire and release, en ambos threads sino carece de sentido.
+
+siempre que adquiris, tenes que liberar.
+
+With statement es tu amigo.
+
+Ojo con llamar cosas que hacen lock.
+
+Rlock es para correr 1 thread 1 clase /funcion a la vez.
+
+Uso de semaforos son cierta cantidad y si el semaforo es 0 no lo accede, util cuando se quiere limitar el acceso a base de datos / red por thread.
+
+Semaforos pueden utilizarse para se´nializar threads, un thread q levanta otro thread es un ejemplo
+
+Eventos:
+Sirve para despertar muchos threads q estan esperando a que algo pase.
+
+notificaciones, barreras.
+
+Condition:
+
+mezcla entre eventos y lock
+acquire, release, wait, notify(), notifyall()
+
+ejemplo proveedor y cliente.
+
+Basicamente, los locks son complicados, pueden resultar en desastre si se manipulan mal.
+--------------------------------------------
+Queues.....
+
+
+
+------------
+Threads, hablar de como lo maneja el SO
+
+GIL - CUANDO HACE IO acquire y release,es el unico capas de utilizar el interprete de python.
+o cuando hace 100 ticks
+
+los ticks no son consistentes, no deterministicos.
+los ticks no se pueden interrumpir.
+
+
+subprocess, varios interpretes corriendo a la vez a travez de pipes, socket, etc. (hablar cpickle)
+https://www.slideshare.net/dabeaz/an-introduction-to-python-concurrency
