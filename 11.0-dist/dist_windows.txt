@@ -1,0 +1,6 @@
+https://geekytheory.com/generar-un-ejecutable-exe-a-partir-de-un-py/
+http://www.pyinstaller.org/
+
+pip install pyinstaller
+
+pyinstaller yourprogram.py
