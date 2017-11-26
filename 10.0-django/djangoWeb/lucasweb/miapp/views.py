@@ -9,6 +9,8 @@ from django.views import generic
 from django.utils import timezone
 
 
+# https://tutorial.djangogirls.org/en/django_forms/
+
 class IndexView(generic.ListView):
     template_name = 'miapp/index.html'
     context_object_name = 'latest_question_list'
